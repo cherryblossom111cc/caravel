@@ -169,7 +169,11 @@ public class Caravel: NSObject, UIWebViewDelegate {
                 return false
             }
             
-            return true
+            if (navigationType == .LinkClicked)  {
+                return false;
+            }else{
+                return true
+            }
         }
         
         return true

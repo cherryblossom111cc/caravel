@@ -15,17 +15,17 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  version = "0.4.0"
+  version = "0.4.1"
 
-  s.name         = "Caravel"
+  s.name         = "Caravel-Showzee"
   s.version      = version
-  s.summary      = "A Swift event bus for UIWebView and JS"
+  s.summary      = "A Swift event bus for UIWebView and JS forked from Caravel"
 
   s.description  = <<-DESC
                    An event bus for sending messages between UIWebView and embedded JS. Made with pure Swift.
                    DESC
 
-  s.homepage     = "https://github.com/coshx/caravel"
+  s.homepage     = "https://github.com/cherryblossom111cc/caravel"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -50,10 +50,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "Adrien Cadet" => "adrien@coshx.com" }
-  # Or just: s.author    = "Adrien Cadet"
-  # s.authors            = { "Adrien Cadet" => "acadet@live.fr" }
-  # s.social_media_url   = "http://twitter.com/Adrien Cadet"
+  s.author             = { "Showzee" => "info@showzee.com" }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -75,7 +72,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/coshx/caravel.git", :tag => "v#{version}" }
+  s.source       = { :git => "https://github.com/cherryblossom111cc/caravel", :tag => "v#{version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
